@@ -1,0 +1,42 @@
+{
+  "identifier" : "it.fuoricitta.conceptboard",
+  "name" : "Conceptboard",
+  "description": "Conceptboard upload for Sketch",
+
+  "author" : "Mario De Santis",
+  "authorEmail" : "nerthase@gmail.com",
+
+  "version": "0.0.1",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+
+  "commands": [
+    {
+      "name": "Upload All Pages to Conceptboard",
+      "identifier": "it.fuoricitta.conceptboard.upload_all",
+      "script": "./upload.js",
+      "handler": "uploadAll",
+    },
+    {
+      "name": "Upload Current Page to Conceptboard",
+      "identifier": "it.fuoricitta.conceptboard.upload_current",
+      "script": "./upload.js",
+      "handler": "uploadCurrent",
+    },
+    {
+      "name": "Conceptboard Settings",
+      "identifier": "it.fuoricitta.conceptboard.settings",
+      "script": "./settings.js",
+      "handler": "settings",
+    }
+  ],
+
+  "menu": {
+    "title": "Conceptboard",
+    "items": [
+      "it.fuoricitta.conceptboard.upload_all",
+      "it.fuoricitta.conceptboard.upload_current",
+      "it.fuoricitta.conceptboard.settings",
+    ]
+  }
+}
