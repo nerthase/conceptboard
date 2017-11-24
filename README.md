@@ -1,6 +1,8 @@
 # Conceptboard
 Sketch Plugin to automagically upload all your artboards to Conceptboard. The plugin keeps your pages order and your artboard position and size.
 
+[Download Conceptboard Plugin](https://raw.githubusercontent.com/nerthase/conceptboard/master/Conceptboard.sketchplugin)
+
 ## Features
 
 - [x] Add dedicated Conceptboard Settings panel
