@@ -1,2 +1,2 @@
-# conceptboard
+# Conceptboard
 Conceptboard upload for Sketch
