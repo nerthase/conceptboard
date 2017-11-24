@@ -9,7 +9,7 @@ Sketch Plugin to automagically upload all your artboards to Conceptboard. The pl
 - [x] Upload only the current page or all pages
 - [x] Skip `Symbols` page during upload (and properly marked pages)
 - [ ] Choose pages to be uploaded
-- [ ] Show progress during upload
+- [ ] Show progress during upload
 
 ## How to use
 
